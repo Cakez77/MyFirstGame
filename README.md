@@ -6,10 +6,10 @@ Fast Little Game written in C for YouTube
 - Download Cmake: https://cmake.org/download/
 
 ### Visual Studio Installation
-![Visual Studio Installer](/relative/path/to/img.jpg?raw=true "Installation Options")
+![Visual Studio Installer](/assets/VisualStudioSetup.jpg?raw=true "Installation Options")
 
 ### CMake Installation
-![Visual Studio Installer](/relative/path/to/img.jpg?raw=true "Installation Options")
+![Visual Studio Installer](/assets/CMakeSetup.jpg?raw=true "Installation Options")
 
 ### Project Setup
 1. Clone the Repository: `git clone https://github.com/Cakez77/MyFirstGame.git` or download the `.zip` file
