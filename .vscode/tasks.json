@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+
+            "windows":
+            {
+                // "command": "clang game.c -o game.exe -Ithird_party/include -Lthird_party/lib -lraylib -luser32 -lshell32 -lgdi32 -lmsvcrt -lwinmm -nostdlib"
+                // "command" : "cmake --build build"
+                "command": "zig cc -Lthird_party/lib -lraylib -luser32 -lshell32 -lgdi32 -lmsvcrt -lwinmm -Ithird_party/include -o game.exe game.c"
+                // "command": "clang game.c -o game.exe -g -Lthird_party/lib -lraylib -luser32 -lshell32 -lgdi32 -lmsvcrt -lwinmm -Ithird_party/include"
+            },
+            "linux":{},
+        }
+    ]
+}
